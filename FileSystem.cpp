@@ -2,12 +2,12 @@
 #include "FileSystemConstants.h"
 #include <string>
 
-FileSystem::FifleSystem()
+FileSystem::FileSystem()
 {
-	//TODO
+	FileSystem(FS_DEFAULT_NAME);
 }
 FileSystem::FileSystem(const char* fs)
 {	
-	//TODO
+	
 }
 FileSystem::FileSystem(std::string fs):FileSystem::FileSystem(fs.c_str()){};
