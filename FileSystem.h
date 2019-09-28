@@ -4,8 +4,7 @@ class FileSystem{
 	private:
 	public:
 	FileSystem();
-	FileSystem(const char* fs);
-	FileSystem(std::string fs); // Delegates to FileSystem(const char*);
+	FileSystem(std::string fs);
 	
 	int 	mkdir(std::string&& pathname);
 	int 	create(std::string&& pathname);
